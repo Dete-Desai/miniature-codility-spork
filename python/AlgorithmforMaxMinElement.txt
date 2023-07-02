@@ -1,0 +1,31 @@
+create a function minMaxNumbers
+Initialize an order set set
+traverse the matrix
+for i in range(0, len(matrix[0]), 1)
+    intialize maximumRows = -sys.maxsize - 1
+    loop through the rows for j in range(0, len(matrix), 1)
+        update the maximum element of the row  max(maximumRows, matrix[i][j])
+     Insert the maximum element of the row s.add(maximumRows)
+ 
+ Lets find the minimum element of each column of the dimension
+ traverse the matrix
+    for j in range(0, len(matrix), 1)
+    intialize the minimumColumns = sys.maxsize
+    loop through the columns for i in range(0, len(matrix[j]), 1)
+        update the minimum element of the column minimumColumns = min(minimumColumns, matrix[i][j])
+        check if the element is present in the un ordered set or not 
+        if (maximumRows in s)
+            if true result.append(maximumRows)
+    produce return result
+if __name__ == '__main__'
+    Declare the matrix set mat = [ [ 1, 10, 4 ],[ 9, 3, 8 ],[ 15, 16, 17 ] ]
+    ans = []
+    make a function call maximumMinimumElements(mat, ans)
+    check if the matrix and the element exist or not if (len(ans) == 0)
+        if false return false "-1"
+ 
+    if true return for i in range(len(ans)):
+        print(ans[i])
+
+Time Complexity: O(m * n) 
+Auxiliary Space: O(m + n)
