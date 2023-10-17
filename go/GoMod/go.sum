@@ -1,2 +1,6 @@
 github.com/Dete-Desai/puppy v0.0.0-20231005153138-eb94ae97e6ec h1:px1OTIcYAGg/O+zXFCeXsXGE3khBm/+SWxqtg9wAyCI=
 github.com/Dete-Desai/puppy v0.0.0-20231005153138-eb94ae97e6ec/go.mod h1:dcTsCXYSGbqomTKpCqcukjn7kOfUre1RFC/XghSiqq4=
+github.com/Dete-Desai/puppy v0.0.0-20231017135930-c94af6541283 h1:07lJac5QPTV/hHLk4S+mAI3k5WtY4hN1KCtzAyl/y20=
+github.com/Dete-Desai/puppy v0.0.0-20231017135930-c94af6541283/go.mod h1:8uvSUYZwMHkQZw/wZZWkvO9kFLTCjrQ+/s8HyEBdzvA=
+github.com/GoesToEleven/dog v0.0.0-20230428023317-90bef1c76cb9 h1:WtQjqEAV0EwbFVvp4ETs4XvRmdE0+r578aLTAnay80Y=
+github.com/GoesToEleven/dog v0.0.0-20230428023317-90bef1c76cb9/go.mod h1:bSJZIYrINAWfFsUPONiX6V8GGsCFquPtn5yE6DFvIkE=
