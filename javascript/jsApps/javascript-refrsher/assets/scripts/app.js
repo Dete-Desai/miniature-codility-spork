@@ -144,3 +144,71 @@ const newSkills = ["Reading"];
 
 const mergedSkills = [...skills, ...newSkills];
 console.log(mergedSkills);
+
+const extendedUser = {
+    isAdmin: true, 
+    ...user
+};
+
+console.log(extendedUser);
+
+//CONTROL STRUCTURES
+//If Statement
+const password = prompt('Your password');
+
+if (password === "Hello") {
+    console.log("Hello works");
+} else if (password === "hello") {
+    console.log("hello works");
+}  else {
+    console.log("Access not granted");
+}
+
+//For Loop Statement
+for (const hobby of hobbies){
+    console.log(hobby);
+}
+
+const list = document.querySelector("ul");
+list.remove();
+
+//USING FUNCTIONS AS VALUES
+
+function handleTimeOut(){
+    console.log("Timed out");
+}
+
+const handleTimeOut2 = () =>{
+    console.log("Timed out ... again!");
+};
+
+setTimeout(handleTimeOut, 2000);
+setTimeout(handleTimeOut2, 3000);
+
+setTimeout(()=>{
+    console.log("More timing out...");
+}, 4000);
+
+function greeter(greetFn){
+    greetFn();
+}
+
+greeter(()=> console.log("Hi"));
+
+//DEFINING FUNCTIONS INSIDE A FUNCTION
+function init(){
+    function greet(){
+        console.log('Hi');
+    }
+
+    greet();
+}
+
+init();
+
+//REFERENCE VS PRIMITIVE VALUES
+let userMessage2 = 'Hello';
+userMessage2 = userMessage2.concat('!!!');
+hobbies.push("Working");
+console.log(hobbies);
+
