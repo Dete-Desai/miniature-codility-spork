@@ -1,4 +1,4 @@
-package algorithm_analysis.java;
+package algorithm_analysis.time_complexity_analysis.java;
 
 public class TimeComplexityDemo {
 
